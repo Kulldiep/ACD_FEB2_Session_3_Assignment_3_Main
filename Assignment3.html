@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+        <title>Account Detail Form</title>
+		<style>
+			.maincontainer{
+				margin-top:20px;
+				margin-left:40px;
+			}			
+			
+			.container {
+			   width: 600px;
+			   height:800px;
+			   background-image: url("images/formBg.jpg");
+			   background-size: 600px 800px;
+			   background-repeat: no-repeat;
+			   background-color:gray;
+			   border:1px solid black;
+			}
+			
+			
+		</style>
+		<link rel="stylesheet" type="text/css" href="styles/myform.css">
+        <!-- HTML5 shim for IE8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+			<script src=“https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js”></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<div class="maincontainer">
+		<div class="container borderStyle">
+			<form>
+			<div><h3>Step 1: Your details </h3></div>
+				<div class="inner1 common borderStyle">
+					<label>Name</label>
+					<input type="text" placeholder="First and Last name">
+				</div>
+				<div class="inner2 common borderStyle">
+					<label>Email</label>
+					<input type="email" placeholder="example@domain.com">
+				</div>
+				<div class="inner3 common borderStyle">
+					<label>Phone</label>
+					<input type="tel" placeholder="e.g. +44750000000">
+				</div>
+			<div><h3 class="text1">Step 2: Delivery Address </h3></div>
+				<div class="inner4 borderStyle"> 
+				<div class="label1">Address <textarea rows="4" cols="30"></textarea></div>
+				</div>
+				<div class="inner5 common borderStyle">
+					<label>Post code</label>
+					<input type="number">
+				</div>
+				<div class="inner6 common borderStyle">
+					<label>Country</label>
+					<input type="text">
+				</div>
+			<div><h3 class="text2">Step 3: Card details </h3></div>
+				<div class="inner7 borderStyle">
+				<div class="label1"><div>Card type<br/></div></div>
+					<div class="cards">
+						<input type="radio" value="visa">
+							<img src="images/visa.jpg" class="radio"><b>VISA</b>
+						<input type="radio" value="amex">
+							<img src="images/amex.jpg" class="radio"><b>AmEx</b>
+						<input type="radio" value="mastercard">
+							<img src="images/mastercard.jpg" class="radio"><b>Mastercard</b>
+					</div>
+				</div>
+				<div class="inner8 common borderStyle">
+					<label>Card number</label>
+					<input type="number">
+				</div>
+				<div class="inner9 common borderStyle">
+					<label>Security code</label>
+					<input type="text">
+				</div>
+				<div class="inner10 common borderStyle">
+					<label>Name on card</label>
+					<input type="text" placeholder="exact name as on the card">
+				</div>
+				<div>
+					<center><input type="submit" value="BUY IT!"></center>
+				</div>
+			</form>	
+		</div>
+	</div>
+</body>
+
+</html>

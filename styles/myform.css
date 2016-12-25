@@ -1,0 +1,130 @@
+/* My Style CSS */
+			.common{
+			   width: 520px;
+			   height:50px;
+			   background-color:#cdd;
+			   position:absolute;
+			   left:85px;
+			   margin:auto;
+			}
+			
+			.inner1 {
+			   top:60px;
+			}
+			
+			.inner2 {
+			   top:120px;
+			}
+			
+			.inner3 {
+			   top:180px;
+			   left:85px;
+			   margin:auto;
+			}
+			
+			.inner4 {
+			   width: 520px;
+			   height:80px;
+			   background-color:#cdd;
+			   position:absolute;
+			   top:270px;
+			   left:85px;
+			   margin:auto;
+			}
+			
+			.inner5 {
+			   top:360px;
+			}
+			
+			.inner6 {
+			   top:420px;
+			}
+			
+			.inner7 {
+			   width: 520px;
+			   height:60px;
+			   background-color:#cdd;
+			   position:absolute;
+			   top:510px;
+			   left:85px;
+			   margin:auto;
+			}
+			
+			.inner8 {
+			   top:580px;
+			}
+			
+			.inner9 {
+			   top:640px;
+			}
+			
+			.inner10 {
+			   top:700px;
+			}
+			/* Border Style */
+			.borderStyle{
+			border:1px solid white;
+			border-radius:0.5em;
+			}
+			
+			/* Header Style */			
+			h3{
+			color: white;
+			position:absolute;
+			left:88px;
+			top:13px;
+			}
+			
+			h3.text1{
+			position:absolute;
+			top:225px;
+			}
+			
+			h3.text2{
+			position:absolute;
+			top:465px;
+			}
+			
+			.radio{
+			height:20px;
+			width:40px;
+			}
+			
+			.cards{
+			margin-top:5px;
+			margin-left:40px;
+			}
+			
+			input:not([type="radio"]):not([type="submit"]){
+			position:absolute;
+			top:10px;
+			left:160px;
+			height:30px;
+			width:200px;
+			}
+			
+			textarea{
+			position:absolute;
+			left:160px;
+			overflow-x: hidden;
+			}
+			
+			label{
+			top:15px;
+			margin-left:10px;
+			position:absolute;
+			}
+			
+			.label1{
+			margin-top:5px !important;
+			margin-left:10px !important; 
+			}
+			
+			input[type="submit"]{
+			width:76px;
+			height:26px;
+			margin-top:750px;
+			border-radius:0.75em;
+			background-color:black;
+			color:white;
+			}
